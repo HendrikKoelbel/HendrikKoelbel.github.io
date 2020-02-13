@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 
 .jfk-bubble {
-    filter: invert(100%) hue-rotate(180deg) brightness(150%) contrast(80%) !important;
+    filter: invert(100%) hue-rotate(180deg) brightness(150%) contrast(100%) !important;
 }
 
 html {
