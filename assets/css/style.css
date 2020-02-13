@@ -1,0 +1,13 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+media="screen">.vimvixen-hint {
+    background-color: #b97d00 !important;
+    border-color: #ffff1c !important;
+    color: #ffffff !important;
+}
+::placeholder {
+    opacity: 0.5 !important;
+}
