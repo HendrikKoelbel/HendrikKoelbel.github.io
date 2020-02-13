@@ -3,11 +3,64 @@
 
 @import "{{ site.theme }}";
 
-.vimvixen-hint {
-    background-color: #b97d00 !important;
-    border-color: #ffff1c !important;
-    color: #ffffff !important;
+.markdown-body code,
+.markdown-body pre {
+    background-color: ${rgba(27, 31, 35, 0.1)} !important;
 }
-::placeholder {
-    opacity: 0.5 !important;
+.markdown-body pre code {
+    background-color: transparent !important;
+}
+.refined-github .dashboard .js-all-activity-header + div {
+    background-color: ${#e4e5e9} !important;
+    border-color: ${#bbc1c9} !important;
+}
+.refined-github .dashboard-rollup-items .body {
+    border-top-color: ${#bbc1c9} !important;
+}
+.js-site-search-form {
+    background-color: #ffffff1a !important;
+    border-radius: 2pt !important;
+}
+.day[fill="#ebedf0"], .legend li[style*="background-color: rgb(235, 237, 240)"] {
+    fill: ${#ebedf0} !important;
+    background-color: ${#ebedf0} !important;
+}
+.day[fill="#c6e48b"], .legend li[style*="background-color: rgb(198, 228, 139)"] {
+    fill: ${#c6d4cb} !important;
+    background-color: ${#c6d4cb} !important;
+}
+.day[fill="#7bc96f"], .legend li[style*="background-color: rgb(123, 201, 111)"] {
+    fill: ${#7bb97f} !important;
+    background-color: ${#7bb97f} !important;
+}
+.day[fill="#239a3b"], .legend li[style*="background-color: rgb(35, 154, 59)"] {
+    fill: ${#238a3b} !important;
+    background-color: ${#238a3b} !important;
+}
+.day[fill="#196127"], .legend li[style*="background-color: rgb(25, 97, 39)"] {
+    fill: ${#196127} !important;
+    background-color: ${#196127} !important;
+}
+.blob-num:not(.cc-coverage-covered-border):not(.cc-coverage-missed-border) {
+    border-right: 0 !important;
+}
+.cc-issue-description {
+    color: #24292e !important;
+}
+.cc-readup-background {
+    background-color: rgb(28, 30, 31) !important
+}
+.cc-readup-content {
+    border-left: 1px solid grey !important;
+    color: rgb(216, 214, 208) !important;
+}
+.cc-readup-content blockquote {
+    border-left: 3px solid dimgrey !important;
+}
+.cc-pr__link-text {
+    color: darkgrey !important;
+}
+.cc-pr__tooltip {
+    background-color: rgb(28, 30, 31) !important;
+    color: darkgrey !important;
 }
