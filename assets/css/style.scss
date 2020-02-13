@@ -3,64 +3,59 @@
 
 @import "{{ site.theme }}";
 
-.markdown-body code,
-.markdown-body pre {
-    background-color: ${rgba(27, 31, 35, 0.1)} !important;
+.jfk-bubble {
+    filter: invert(100%) hue-rotate(180deg) brightness(150%) contrast(90%) !important;
 }
-.markdown-body pre code {
-    background-color: transparent !important;
+
+html {
+    background-color: #242729 !important;
 }
-.refined-github .dashboard .js-all-activity-header + div {
-    background-color: ${#e4e5e9} !important;
-    border-color: ${#bbc1c9} !important;
+html, body, input, textarea, select, button {
+    background-color: #242729;
 }
-.refined-github .dashboard-rollup-items .body {
-    border-top-color: ${#bbc1c9} !important;
+html, body, input, textarea, select, button {
+    border-color: #838383;
+    color: #ffffff;
 }
-.js-site-search-form {
-    background-color: #ffffff1a !important;
-    border-radius: 2pt !important;
+a {
+    color: #4ddaff;
 }
-.day[fill="#ebedf0"], .legend li[style*="background-color: rgb(235, 237, 240)"] {
-    fill: ${#ebedf0} !important;
-    background-color: ${#ebedf0} !important;
+table {
+    border-color: #727272;
 }
-.day[fill="#c6e48b"], .legend li[style*="background-color: rgb(198, 228, 139)"] {
-    fill: ${#c6d4cb} !important;
-    background-color: ${#c6d4cb} !important;
+::placeholder {
+    color: #ffffff;
 }
-.day[fill="#7bc96f"], .legend li[style*="background-color: rgb(123, 201, 111)"] {
-    fill: ${#7bb97f} !important;
-    background-color: ${#7bb97f} !important;
+::selection {
+    background-color: #008aff;
+    color: #ffffff;
 }
-.day[fill="#239a3b"], .legend li[style*="background-color: rgb(35, 154, 59)"] {
-    fill: ${#238a3b} !important;
-    background-color: ${#238a3b} !important;
+::-moz-selection {
+    background-color: #008aff;
+    color: #ffffff;
 }
-.day[fill="#196127"], .legend li[style*="background-color: rgb(25, 97, 39)"] {
-    fill: ${#196127} !important;
-    background-color: ${#196127} !important;
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: #7e8900 !important;
+    color: #ffffff !important;
 }
-.blob-num:not(.cc-coverage-covered-border):not(.cc-coverage-missed-border) {
-    border-right: 0 !important;
+::-webkit-scrollbar {
+    background-color: #2a2d2f;
+    color: #ffffff;
 }
-.cc-issue-description {
-    color: #24292e !important;
+::-webkit-scrollbar-thumb {
+    background-color: #3f4245;
 }
-.cc-readup-background {
-    background-color: rgb(28, 30, 31) !important
+::-webkit-scrollbar-thumb:hover {
+    background-color: #4b5053;
 }
-.cc-readup-content {
-    border-left: 1px solid grey !important;
-    color: rgb(216, 214, 208) !important;
+::-webkit-scrollbar-thumb:active {
+    background-color: #5c6065;
 }
-.cc-readup-content blockquote {
-    border-left: 3px solid dimgrey !important;
+::-webkit-scrollbar-corner {
+    background-color: #242729;
 }
-.cc-pr__link-text {
-    color: darkgrey !important;
-}
-.cc-pr__tooltip {
-    background-color: rgb(28, 30, 31) !important;
-    color: darkgrey !important;
+* {
+    scrollbar-color: #3f4245 #2a2d2f;
 }
