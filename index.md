@@ -4,8 +4,9 @@
 
 ### DMS-API-Library
 > The DMS API Library is an interface which stores the information in objects using RestSharp and Json.net to make communication easier.
-- [DMS-API-Library](https://github.com/HendrikKoelbel/DMS-API-Library)
+- GitHub Page [DMS-API-Library](https://HendrikKoelbel.github.io/DMS-API-Library)
+- Repo [DMS-API-Library](https://github.com/HendrikKoelbel/DMS-API-Library)
 
 ### AutpUpdaterLib
 > AutpUpdaterLib is a library used to update portable and installed applications.
-- [AutpUpdaterLib](https://github.com/HenkLab/AutoUpdaterLib)
+- Repo [AutpUpdaterLib](https://github.com/HenkLab/AutoUpdaterLib)
