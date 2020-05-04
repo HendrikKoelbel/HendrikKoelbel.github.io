@@ -2,7 +2,7 @@
 
 # My projects are
 
-### AutpUpdaterLib
+### AutpUpdaterLib (currently not available)
 > AutpUpdaterLib is a library used to update portable and installed applications.
 - GitHub Page [AutpUpdaterLib](https://HenkLab.github.io/AutoUpdaterLib/)
 - Repo [AutpUpdaterLib](https://github.com/HenkLab/AutoUpdaterLib)
