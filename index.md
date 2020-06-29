@@ -2,8 +2,16 @@
 
 # My projects are
 
+### RunAsAdmin (currently not available)
+> RunAsAdmin is a small program that allows administrators to start other programs with elevated privileges when logged in as a normal user.
+- Repo [RunAsAdmin](https://github.com/HendrikKoelbel/RunAsAdmin)
+
+### RunAsAdmin (outdated)
+> RunAsAdmin is a small program that allows administrators to start other programs with elevated privileges when logged in as a normal user.
+- Repo [RunAsAdmin_Outdated](https://github.com/HendrikKoelbel/RunAsAdmin_Outdated)
+
 ### AutpUpdaterLib (currently not available)
-> AutpUpdaterLib is a library used to update portable and installed applications.
+> AutpUpdaterLib is a library to update simple Windows applications automatically.
 - GitHub Page [AutpUpdaterLib](https://HenkLab.github.io/AutoUpdaterLib/)
 - Repo [AutpUpdaterLib](https://github.com/HenkLab/AutoUpdaterLib)
 
